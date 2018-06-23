@@ -58,8 +58,10 @@
 			    <meta-data android:name="com.google.android.gms.version"
 			                android:value="@integer/google_play_services_version"/>
 		</config-file>
-		<source-file src="libadapterinmobi.jar" target-dir="libs" />
-	    <source-file src="src/android/InMobi-6.0.4.jar" target-dir="libs" />
+		
+	    <lib-file src="libadapterinmobi.jar" arch="device" />
+	    
+	    <lib-file src="src/android/InMobi-6.0.4.jar" arch="device" />
     </platform>
 
     <platform name="ios">  
